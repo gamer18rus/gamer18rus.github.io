@@ -114,13 +114,13 @@ body {
 }
 
 .contacts-menu .icon-mail {
-  background-image: https://space-z.github.io/img/mail-icon.png;
+  background-image: url(../img/iconka.png);
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
 
 .contacts-menu .icon-phone {
-  background-image: url(../img/phone-icon.png);
+  background-image: url(../img/iconka2.png);
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
