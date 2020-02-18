@@ -8,8 +8,7 @@ body {
   color: #000000;
 
   background-color: #ffffff;
-}
-
+}  
 .container {
   width: 1040px;
   margin: 0 auto;
@@ -39,7 +38,7 @@ body {
   padding-top: 50px;
   padding-bottom: 180px;
 
-  background-image: imageurl("https://github.com/gamer18rus/gamer18rus.github.io/blob/master/img/kosmos.png");
+  background-image: imageurl("../img/moon-rocket.png");
   background-repeat: no-repeat;
   background-position: 520px 130px;
 }
@@ -127,6 +126,8 @@ body {
 }
 
 .about-us {
+  display: flex;
+  flex-wrap: wrap;
   width: 300px;
   padding-left: 120px;
 }
@@ -157,6 +158,7 @@ body {
 
   display: inline-block;
   width: 195px;
+    height:60px;
   padding: 0 25px;
 
   font-weight: bold;
@@ -263,19 +265,19 @@ body {
 }
 
 .feature-made-in-russia::after {
-  background-image: url(../img/advantage-icon-1.png);
+  background-image: url(../img/k1.png);
 }
 
 .feature-food::after {
-  background-image: url(../img/advantage-icon-2.png);
+  background-image: url(../img/k2.png);
 }
 
 .feature-pilots::after {
-  background-image: url(../img/advantage-icon-3.png);
+  background-image: url(../img/k3.png);
 }
 
 .feature-moon-rover::after {
-  background-image: url(../img/advantage-icon-4.png);
+  background-image: url(../img/k4.png);
 }
 
 .columns-container {
@@ -582,4 +584,16 @@ body {
 
 .footer-nav a:active {
   color: #ccc;
+}
+.rt{display: flex;
+    direction: row;
+}
+.rtt{
+   display: flex;
+  flex-wrap: wrap;
+   margin: 10px; 
+    width: 300px;
+}
+.rttt{
+   padding-left: 100px;
 }
